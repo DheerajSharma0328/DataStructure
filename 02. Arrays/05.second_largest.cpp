@@ -22,7 +22,7 @@ int second_largest(int arr[] , int size)
 
     for(int i=0; i<size; i++)
     {
-        if(arr[i] < largest && arr[i] > second_largest_element)
+        if(arr[i] < largest && arr[i] > second_largest_element && arr[i] != largest)
         {
             second_largest_element = arr[i];
         }
